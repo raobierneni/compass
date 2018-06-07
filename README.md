@@ -10,4 +10,15 @@ First, install pipenv. Then:
 ...
 
 pipenv install
-pipenv run "compass.py"
+pipenv run "navigator.py"
+
+## About
+This project is a demo, and uses boto3 to manage AWS EC2 instances. (ex snapshots etc)
+
+## Configuring
+compass uses the configuration file created by the AWS cli e.g.
+
+`aws configure --profile compass`
+
+## Running
+`pipenv run "python .\navigator\navigator.py"`
