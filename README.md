@@ -21,4 +21,7 @@ compass uses the configuration file created by the AWS cli e.g.
 `aws configure --profile compass`
 
 ## Running
-`pipenv run "python .\navigator\navigator.py"`
+`pipenv run "python .\navigator\navigator.py <command> <--project=PROJECT>"`
+
+*command* is list,start, or stop
+*project* is optional
